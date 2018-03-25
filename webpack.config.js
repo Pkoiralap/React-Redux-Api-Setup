@@ -1,4 +1,4 @@
-var path = require('path'); // to use path.resolve
+var path = require('path'); // to use path.join
 module.exports = {
   entry: './index.js',
   output: {

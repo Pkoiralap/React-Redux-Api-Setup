@@ -28,7 +28,6 @@ class HelloWorld extends React.Component {
       this.props.fetchApiData();
     }
     render() {
-      console.log(this.props.apiMessage);
       return (
         <div className="mainDiv">
           <h1>Hello World</h1>
